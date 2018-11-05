@@ -1,0 +1,9 @@
+Bugs List:
+Test 3 (FAILED): List appears empty when a value is passed to AddFront.
+  AddFront works as verified in Test 5, therefore the method isEmpty() is not working.
+
+Test 7 (FAILED): removeFront() method appears to be broken
+  problem is not caused by size() method since Test 5 and Test 6 operate as usual.
+
+Test 8 (FAILED); removeBack() method appears to be  broken,
+  problem is not caused by size() method since Test 5 and Test 6 operate as usual.
