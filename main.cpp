@@ -1,25 +1,19 @@
 /**
-*	@author 
-*	@date 
+*	@Brad Andrews
+*	@11/3/18
 *	@file main.cpp
-*	@brief driver for LinkedList demo
+*	@brief driver for LinkedList tester
 */
-#include <iostream>
-#include "LinkedListOfInts.h"
+#include "Test.h"
 
 int main(int argc, char** argv)
 {
-	//Example of declaring a LinkedListOfInts
-	LinkedListOfInts testableList;
+	std::cout << "Running...\n";
 
-	//You won't do all the tests in main; that's what your Test class will be for
-	//Example:
-	//TestSuite myTester;
-	//myTester.runTests();
+	Test test;
+	test.startTests();
 
-	std::cout << "Running...\nAnd we're done.\nGoodbye.\n";
-	
+	std::cout <<"And we're done.\nGoodbye.\n";
+
 	return (0);
-
 }
-
